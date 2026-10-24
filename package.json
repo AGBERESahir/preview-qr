@@ -1,0 +1,1 @@
+{ "name": "preview-qr", "version": "1.0.0", "description": "Affiche un QR code pour ouvrir ton localhost sur ton téléphone (même Wi-Fi).", "license": "MIT", "bin": { "preview-qr": "preview-qr.js" }, "dependencies": { "qrcode-terminal": "^0.12.0" }, "engines": { "node": ">=18" } }
