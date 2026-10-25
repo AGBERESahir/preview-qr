@@ -88,5 +88,5 @@ async function main(argv) {
   return 0;
 }
 
-module.exports = { candidats, construireUrl, estPrivee };
+module.exports = { candidats, construireUrl, estPrivee, diagnostiquer };
 if (require.main === module) main(process.argv.slice(2)).then(c => process.exit(c));
